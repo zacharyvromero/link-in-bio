@@ -1,1 +1,118 @@
-<h1>This is my homepage</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>GhoulGuard Cybersecurity</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
+  <style>
+    html, body {
+      min-height: 100%;
+      margin: 0;
+      font-family: 'Share Tech Mono', monospace;
+      background: radial-gradient(circle at top, #001a00, #003300, #001f00);
+      color: #00ff00;
+    }
+
+    .main-container {
+      max-width: 640px;
+      margin: auto;
+      padding: 40px;
+    }
+
+    .avatar-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px auto;
+    }
+
+    .name-row {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .social-icons-row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .social-icons-row a {
+      color: #00ff00;
+      font-size: 24px;
+    }
+
+    .item {
+      background-color: rgba(0, 255, 0, 0.1);
+      border: 1px solid #00ff00;
+      border-radius: 12px;
+      padding: 10px 20px;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .item img {
+      width: 36px;
+      height: 36px;
+      object-fit: contain;
+    }
+
+    .item a {
+      color: #00ff00;
+      text-decoration: none;
+      flex-grow: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main-container">
+    <img class="avatar-image" src="/profile-pic.png" alt="Ghoul Guard Logo">
+
+    <div class="name-row">GhoulGuard Cybersecurity</div>
+
+    <div class="social-icons-row">
+      <a href="https://github.com/ghoulguard" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/zachary-romero/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+
+    <div class="links-row">
+      <div class="item">
+        <img src="/thm-icon.png" alt="TryHackMe">
+        <a target="_blank" href="https://tryhackme.com/p/zeigzeigler">TryHackMe</a>
+      </div>
+
+      <div class="item">
+        <img src="/osint-link.png" alt="OSINT Framework">
+        <a target="_blank" href="https://osintframework.com/">OSINT Framework</a>
+      </div>
+
+      <div class="item">
+        <img src="/mitre-icon.png" alt="MITRE ATT&CK">
+        <a target="_blank" href="https://attack.mitre.org/">MITRE ATT&CK FRAMEWORK</a>
+      </div>
+
+      <div class="item">
+        <img src="/pwnd-icon.png" alt="Have I Been Pwned">
+        <a target="_blank" href="https://haveibeenpwned.com/">haveibeenpwned</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
